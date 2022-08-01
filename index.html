@@ -3,9 +3,28 @@
     <head>
         <meta charset="UTF-8">
         <title>Rock Paper Scissors!</title>
+        <script src="code.js" defer></script>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <script src="code.js"></script>
+        <div class="section1">
+            <h1 class="title">It's A War Against The Machines</h1>
+            <div class="largeText">Choose your weapon:</div>
+            <div class="buttonContainer">
+                <button class="rock"><kbd class="rock">R</kbd><div class="rock text">Rock</div></button>
+                <button class="paper"><kbd class="paper">P</kbd><div class="paper text">Paper</div></button>
+                <button class="scissors"><kbd class="scissors">S</kbd><div class="scissors text">Scissors</div></button>
+            </div>
+        </div>
+        <div class="section2">
+            <div id="scoreboard">
+                <div class="scoreCard"><p id="playerScore">0</p><p class="text">Player</p></div>
+                <div class="scoreCard"><p id="computerScore">0</p><p class="text">Computer</p></div>
+            </div>
+        </div>
+        <div class="section3">
+            <div id="commentary">Let's dance...</div>
+        </div>
     </body>
 </html>
